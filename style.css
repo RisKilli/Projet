@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#FirstImg{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Firstimg{
+    opacity: 1;
+    margin-top:40vh;
+    animation:first 3s forwards;
+    
+}
+
+@keyframes first {
+        0%{ opacity: 0;}
+        100% { opacity: 1;}
+}
+
+
+/* deuxieme partis */
+
+.navFirstProfil{
+    border-bottom: 1px solid red;
+    border-radius: 100px;
+}
+
+.FirstProfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border-radius: 0px;
+ 
+}
+
+.AllActivity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AllActivity p{
+  padding:   2px;
+}
+
+
+.platformActivity {
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 3fr) 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    border: solid 1px;
+    }
+
+    .platformActivity div{
+        border: solid 1px;
+    }
+
+
+    .allF{
+        padding:200px;
+    }
+
+
